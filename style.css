@@ -150,6 +150,23 @@ body {
     color: #000;
 }
 
+.alert-page-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 50px;
+    font-family: 'OCR A Std', monospace;
+    font-size: 3em;
+}
+
+.alert-page-container > img{
+    width: 40%;
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 500px) {
     .card-containers {
         flex-direction: column;
@@ -195,6 +212,16 @@ body {
 
     .rodape>p {
         font-size: 0.9em;
+    }
+
+    .alert-page-container{
+        margin-top: 200px;
+        font-size: 2em;
+    }
+
+    .alert-page-container > img {
+        width: 80%;
+        margin-top: 50px;
     }
 }
 
