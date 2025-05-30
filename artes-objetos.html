@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artes-objetos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <link href="https://fontlibrary.org/face/ocr-a" rel="stylesheet" type="text/css" />
+    <title>Artes para objetos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+
+        </div>
+        <div class="principal">
+            <div class="info-container">
+                <div class="text-container">
+                    <p>Artes para Objetos</p>
+                    <p>Clique para abrir a imagem</p>
+                </div>
+                <div class="nav-links">
+                    <a href="./inicio.html">Início</a>
+                    <a href="#">Contato</a>
+                    <a href="#">CV Download</a>
+                </div>
+            </div>
+
+            <div class="card-containers">
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./img/caixa1.png" alt="">
+                        <img class="card-img" src="./img/caixa2.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./img/caixa3.png" alt="">
+                        <img class="card-img" src="./img/caixa4.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-container" style="display: flex; justify-content: space-around;">
+                        <img class="card-img" src="./img/caixa5.png" alt="" style="transform: rotate(90deg); width: 200px;">
+                        <img class="card-img" src="./img/caixa6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rodape">
+            <p>David Silva - Todos os direitos reservados 2025</p>
+        </div>
+    </div>
+
+    <!-- Modal de Imagem -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="ates-objetos.js"></script>
+</body>
+</html>
