@@ -195,7 +195,7 @@ body {
     color: #000;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 420px) {
     .card-containers {
         flex-direction: column;
         width: auto;
